@@ -3,8 +3,8 @@ def game_hash
     home: {
       team_name: "Brooklyn Nets",
       colors: ["black", "White"],
-      players: {
-          "Alan Anderson" => {
+      players: [
+        {
           player_name: "ALan Anderson",
           number: 0,
           shoe: 16,
@@ -14,9 +14,9 @@ def game_hash
           steals: 3,
           blocks: 1,
           slam_dunks: 1
-        }, 
-          "Reggie Evans" => {
-            player_name: "Reggie Evans",
+        },
+        {
+          player_name: "Reggie Evans",
           number: 30,
           shoe: 14,
           points: 12,
@@ -26,8 +26,8 @@ def game_hash
           blocks: 12, 
           slam_dunks: 7
         },
-          "Brook Lopez" => {
-            player_name: "Brook Lopez",
+        {
+          player_name: "Brook Lopez",
           number: 11,
           shoe: 17, 
           points: 17, 
@@ -37,8 +37,8 @@ def game_hash
           blocks: 8,
           slam_dunks: 5
         },
-          "Mason Plumlee" => {
-            player_name: "Mason Plumlee",
+        {
+          player_name: "Mason Plumlee",
           number: 1,
           shoe: 19, 
           points: 26, 
@@ -48,8 +48,8 @@ def game_hash
           blocks: 8,
           slam_dunks: 5
         },
-          "Jason Terry" => {
-            player_name: "Jason Terry",
+        {
+          player_name: "Jason Terry",
           number: 31, 
           shoe: 15, 
           points: 19, 
@@ -59,14 +59,14 @@ def game_hash
           blocks: 11, 
           slam_dunks: 1
         }
-      }
+      ]
     },
     away: {
       team_name: "Charlotte Hornets",
       colors: ["Turquoise", "Purple"],
-      players: {
-          "Jeff Adrien" => {
-            player_name: "Jeff Adrien",
+      players: [
+        {
+          player_name: "Jeff Adrien",
           number: 4,
           shoe: 18,
           points: 10, 
@@ -76,8 +76,8 @@ def game_hash
           blocks: 7,
           slam_dunks: 2
         }, 
-          "Bismack Biyombo" => {
-            player_name: "Bismack Biyombo",
+        {
+          player_name: "Bismack Biyombo",
           number: 0,
           shoe: 16,
           points: 12,
@@ -87,8 +87,8 @@ def game_hash
           blocks: 15,
           slam_dunks: 10
         },
-          "DeSagna Diop" => {
-            player_name: "DeSagna Diop",
+        {
+          player_name: "DeSagna Diop",
           number: 2,
           shoe: 14,
           points: 24,
